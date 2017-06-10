@@ -1,17 +1,13 @@
----
-layout: resources
-currentpage: algorithm-api
----
-
 # Sounder API
 
-This section is dedicated to the [Sounder Library's](github_link) API.
+This section is dedicated to the Sounder Library API, which is an abstraction of the [Sounder Algorithm](https://www.slapbot.github.io/documentation/resources/algorithm), To read the full paper explaining how Sounder works and can be incoporated in the project as well as where it can be used at, kindly refer here: [Sounder Explained](https://www.slapbot.github.io/documentation/resources/algorithm), [PDF version](https://www.slapbot.github.io/documentation/resources/algorithm/sounder.pdf)
 
 - [Installation](#installation)
 - [Instantiate Class](#instantiate)
 - [Search Method](#search)
 - [Probability Method](#probability)
 - [Filter Method](#filter)
+- [Practical Usage](#practical-usage)
 
 <a name="installation">
 ## Installation
@@ -36,7 +32,7 @@ You can pass dataset as a positional argument(optional) to the Sounder construct
 
 	sounder.set_dataset([['facebook', 'notifications'], ['twitter', 'notifications']])
 
-As you can already notice, in order to use search method, the dataset needs to be 2 dimensional list, containing string elements.
+As you can already notice, in order to use `search` method, the `dataset` needs to be `2 dimensional list`, containing string elements.
 
 <a name="search">
 ## Search Method
@@ -98,3 +94,8 @@ This method is just a utility to help you do the entire intent recognization fro
 	        'a', 'am', 'an', 'i', 'like', 'has', 'have', 'need',
 	        'will', 'be', "this", 'that', "for"
 		}
+
+<a name="practical-usage">
+## Practical Usage
+
+This algorithm is the brain of [Stephanie](https://www.slapbot.github.io), an open-source platform built specifically for voice-controlled application as well as to automate daily tasks imitating much of an virtual assistant's work.

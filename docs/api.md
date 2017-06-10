@@ -1,8 +1,3 @@
----
-layout: resources
-currentpage: algorithm-api
----
-
 # Sounder API
 
 This section is dedicated to the [Sounder Library's](github_link) API.

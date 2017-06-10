@@ -1,8 +1,3 @@
----
-layout: resources
-currentpage: algorithm
----
-
 # Sounder Algorithm
 
 - [Introduction](#introduction)
