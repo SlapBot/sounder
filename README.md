@@ -1,6 +1,6 @@
 # Sounder API
 
-This section is dedicated to the Sounder Library API, which is an abstraction of the [Sounder Algorithm](https://www.slapbot.github.io/documentation/resources/algorithm), To read the full paper explaining how Sounder works and can be incoporated in the project as well as where it can be used at, kindly refer here: [Sounder Explained](https://www.slapbot.github.io/documentation/resources/algorithm), [PDF version](https://www.slapbot.github.io/documentation/resources/algorithm/sounder.pdf)
+This section is dedicated to the Sounder Library API, which is an abstraction of the [Sounder Algorithm](https://slapbot.github.io/documentation/resources/algorithm), To read the full paper explaining how Sounder works and can be incoporated in the project as well as where it can be used at, kindly refer here: [Sounder Explained](https://slapbot.github.io/documentation/resources/algorithm), [PDF version](https://slapbot.github.io/documentation/resources/algorithm/sounder.pdf)
 
 - [Installation](#installation)
 - [Instantiate Class](#instantiate)
@@ -115,4 +115,4 @@ This method is just a utility to help you do the entire intent recognization fro
 
 ## Practical Usage
 
-This algorithm is the brain of [Stephanie](https://www.slapbot.github.io), an open-source platform built specifically for voice-controlled application as well as to automate daily tasks imitating much of an virtual assistant's work.
+This algorithm is the brain of [Stephanie](https://slapbot.github.io), an open-source platform built specifically for voice-controlled application as well as to automate daily tasks imitating much of an virtual assistant's work.
