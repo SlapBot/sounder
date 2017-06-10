@@ -9,14 +9,20 @@ This section is dedicated to the Sounder Library API, which is an abstraction of
 - [Filter Method](#filter)
 - [Practical Usage](#practical-usage)
 
+<hr>
+
 <a name="installation">
+
 ## Installation
 
 Installing Sounder library into your application is easy as pie with `pip` package manager, allowing you to do a simple command from your favorite command line as follows:
 
 	pip install sounder
 
+<hr>
+
 <a name="instantiate">
+
 ## Instantiate Class
 
 The first and the foremost thing to do is to import the class like so.
@@ -34,7 +40,10 @@ You can pass dataset as a positional argument(optional) to the Sounder construct
 
 As you can already notice, in order to use `search` method, the `dataset` needs to be `2 dimensional list`, containing string elements.
 
+<hr>
+
 <a name="search">
+
 ## Search Method
 
 `search(query, dataset=None, metaphone=False)` method takes a positional argument(compulsory), a query which needs to be a list composed of string that needs to be searched through the dataset, like so.
@@ -49,6 +58,8 @@ This method take other optional arguments as follows:
 - **dataset :** It's simply the dataset, in case you don't want set dataset while instantiating the class, no problem just pass it as a another argument. Though again it needs to be a double dimensional list.
 
 - **metaphone :** It defaults to False, resonating to the fact that you don't want to use metaphones in addition to the master algorithm. On True state, all the dataset and query is first transformed to metaphones and then inputted to the algorithm increasing efficiency in cases where input data is quite randomized or uses generic terms.
+
+<hr>
 
 ## Probability Method
 
@@ -75,7 +86,10 @@ Sounder basically internally map it into double dimensional list automatically, 
 
 - **metaphones :** Again, it's exactly the same as for search method.
 
+<hr>
+
 <a name="filter">
+
 ## Filter Method
 
 `filter(query, reserved_sub_words=None)` is basically a utility provided you to filter the stop words out of your string, for instance, `"Hey Stephanie, what is the time right now?"` would filter away `['hey', 'what', 'is', 'the']` since they don't hold higher meaning, leaving behind key_words like `['stephanie', 'time', 'right', 'now']`
@@ -95,7 +109,10 @@ This method is just a utility to help you do the entire intent recognization fro
 	        'will', 'be', "this", 'that', "for"
 		}
 
+<hr>
+
 <a name="practical-usage">
+
 ## Practical Usage
 
 This algorithm is the brain of [Stephanie](https://www.slapbot.github.io), an open-source platform built specifically for voice-controlled application as well as to automate daily tasks imitating much of an virtual assistant's work.
