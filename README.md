@@ -70,7 +70,7 @@ This method take other optional arguments as follows:
 
 `probability` method returns result depending on the optional parameters under given cases:
 
-- **No optional arugment passed :** It returns the list the size of the dataset, composed of probability that the query list is most probable to the dataset, resulting from a value between 0.0 to 1.0 where 0.0 refers to nothing matches, and 1.0 to everything matches.
+- **No optional argument passed :** It returns the list the size of the dataset, composed of probability that the query list is most probable to the dataset, resulting from a value between 0.0 to 1.0 where 0.0 refers to nothing matches, and 1.0 to everything matches.
 
 - **detailed :** If detailed argument is set to True, then it returns back the size of the dataset in a nested list format, where the first element is the probability that the query list is most probable to the dataset, while the second element is an another list the size of the ith data of dataset, consisting the probabiltiy that jth word of the ith data was found on the query by solving assignment problem, resulting from a value between 0.0 to 1.0 where 0.0 refers to nothing matches.
 
