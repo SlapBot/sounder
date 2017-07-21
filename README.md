@@ -61,6 +61,8 @@ This method take other optional arguments as follows:
 
 <hr>
 
+<a name="probability">
+
 ## Probability Method
 
 `probability(query, dataset=None, metaphone=False, detailed=False, prediction=False)` method takes again a single positional argument which is the query that needs to be compared with the dataset. (A list composed of strings.), like so.
