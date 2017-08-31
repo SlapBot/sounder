@@ -145,7 +145,7 @@ class Sounder:
     @staticmethod
     def loop2(k_word, s_word):
         word_score = sm(None, k_word, s_word)
-        return word_score.ratio()
+        return round(word_score.ratio() * 100)
 
     @staticmethod
     def pick(scores):

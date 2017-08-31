@@ -11,7 +11,7 @@ with open(path.join(file_path, 'README.md'), encoding='utf-8') as f:
 setup(
     name='sounder',
 
-    version='0.1.0',
+    version='0.2.0',
 
     description='An intent recognition algorithm.',
     long_description=long_description,
@@ -27,7 +27,6 @@ setup(
         'Development Status :: 3 - Alpha',
 
         'Environment :: Web Environment',
-        'Environment :: Console Environment',
 
         'Operating System :: OS Independent',
 
