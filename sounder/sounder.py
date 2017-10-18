@@ -32,11 +32,11 @@ class Sounder:
             "what", "where", "which", "how", "when", "who",
             "is", "are", "makes", "made", "make", "did", "do",
             "to", "the", "of", "from", "against", "and", "or",
-            "you", "me", "we", "us", "your", "my", "mine", 'yours',
+            "you", "me", "we", "us", "your", "my", "mine", "yours",
             "could", "would", "may", "might", "let", "possibly",
-            'tell', "give", "told", "gave", "know", "knew",
-            'a', 'am', 'an', 'i', 'like', 'has', 'have', 'need',
-            'will', 'be', "this", 'that', "for"
+            "tell", "give", "told", "gave", "know", "knew",
+            "a", "am", "an", "i", "like", "has", "have", "need",
+            "will", "be", "this", "that", "for"
         }
 
     def filter(self, query, reserved_sub_words=None):
