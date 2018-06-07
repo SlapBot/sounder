@@ -68,7 +68,7 @@ This method take other optional arguments as follows:
 `probability(query, dataset=None, metaphone=False, detailed=False, prediction=False)` method takes again a single positional argument which is the query that needs to be compared with the dataset. (A list composed of strings.), like so.
 
 	sounder = Sounder([['facebook', 'notifications'], ['twitter', 'notifications'], ['note', 'something']])
-	chances = sounder.probabiltiy(['trackbook', 'notifs'])
+	chances = sounder.probability(['trackbook', 'notifs'])
 
 `probability` method returns result depending on the optional parameters under given cases:
 
